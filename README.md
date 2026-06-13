@@ -20,6 +20,14 @@ The pipeline allows multiple instructions to be processed simultaneously, improv
 
 ---
 
+## 🧠 Pipeline Diagram
+
+<img src="https://github.com/ymahrous/risc-pipelined-processor/blob/main/schema.jpg"/>
+
+The pipeline allows multiple instructions to be processed simultaneously, improving throughput compared to a single-cycle design.
+
+---
+
 ## 🧠 Key Features
 
 - 5-stage pipelined datapath
