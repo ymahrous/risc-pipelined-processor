@@ -5,7 +5,7 @@ The design demonstrates instruction-level parallelism, hazard handling, and the 
 
 ---
 
-## ⚙️ Architecture Overview
+## Architecture Overview
 
 This processor follows the classic **6-stage RISC pipeline**:
 
@@ -20,7 +20,7 @@ The pipeline allows multiple instructions to be processed simultaneously, improv
 
 ---
 
-## 🧠 Pipeline Diagram
+## Pipeline Diagram
 
 <img src="https://github.com/ymahrous/risc-pipelined-processor/blob/main/schema.jpg"/>
 
@@ -28,9 +28,9 @@ The pipeline allows multiple instructions to be processed simultaneously, improv
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
-- 5-stage pipelined datapath
+- 6-stage pipelined datapath
 - Instruction memory + data memory separation
 - Control unit for instruction decoding
 - Basic hazard handling (pipeline coordination)
@@ -40,7 +40,7 @@ The pipeline allows multiple instructions to be processed simultaneously, improv
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `datapath/` → Core pipeline stages (IF, ID, EX1, EX2, MEM, WB)
 - `control/` → Control unit and signal generation
@@ -51,7 +51,7 @@ The pipeline allows multiple instructions to be processed simultaneously, improv
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Simulation
 This project can be simulated using standard VHDL simulators such as:
@@ -66,7 +66,7 @@ This project can be simulated using standard VHDL simulators such as:
 
 ---
 
-## 📊 What This Project Demonstrates
+## What This Project Demonstrates
 
 This CPU design demonstrates understanding of:
 
@@ -78,7 +78,7 @@ This CPU design demonstrates understanding of:
 
 ---
 
-## 🧩 Limitations / Future Work
+## Limitations
 
 - No advanced hazard prediction (e.g., branch prediction)
 - Limited instruction set implementation
@@ -93,7 +93,7 @@ Future improvements:
 
 ---
 
-## 🎯 Why This Project Matters
+## Why This Project Matters
 
 This project reflects foundational understanding of how modern CPUs work internally.  
 It is representative of real-world concepts used in:
